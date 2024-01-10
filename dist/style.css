@@ -1,0 +1,78 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header {
+  background-color: #009fb7;
+}
+header a {
+  color: #eff1f3;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+header a:hover {
+  color: #fed766;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+a,
+ul,
+li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p,
+span,
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.site-footer {
+  background-color: #696773;
+  color: #eff1f3;
+}
+.site-footer a {
+  color: #eff1f3;
+  font-weight: bold;
+}
+.site-footer ul {
+  display: contents;
+}
+
+.part-servicos {
+  background-color: #fed766;
+}
+.part-servicos .services-item {
+  flex-wrap: wrap;
+}
+
+.erro h1 {
+  font-size: 70px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map*/
